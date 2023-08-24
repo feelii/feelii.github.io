@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>レストランサイトの作成｜トップページ</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/hamburgers.css">
+    <link rel="apple-touch-icon" href="touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&family=Merriweather:ital@1&display=swap" rel="stylesheet">   
+</head>
+<body id="top">
+    <header>
+        <h1>La Dolce Vita</h1>
+        <p class="tag-line">
+            本格イタリアンをカジュアルに
+        </p>   
+    </header>
+
+<p class="hamburger hamburger--squeeze" id="ham-btn">
+    <span class="hamburger-box">
+      <span class="hamburger-inner"></span>
+    </span>
+</p>
+
+    <nav id="g-nav">
+     <ul>
+        <li><a href="#top" data-en="TOP">トップ</a></li>
+        <li><a href="#news" data-en="NEWS">お知らせ</a></li>
+        <li><a href="#menu" data-en="MENU">メニュー</a></li>
+        <li><a href="#movie" data-en="MOVIE">動画</a></li>
+        <li><a href="#shop" data-en="SHOP">店舗情報</a></li>
+        <li><a href="#faq" data-en="FAQ">よくある質問</a></li>
+        <li><a href="#reserve" data-en="RESERVE">予約</a></li>
+     </ul>
+    </nav>
+
+    <div class="main-photo">
+        <ul class="bxslider">
+            <li><img src="img/main1.webp" alt=""></li>
+            <li><img src="img/main2.webp" alt=""></li>
+            <li><img src="img/main3.webp" alt=""></li>
+        </ul>
+    </div>
+
+    <div class="main-copy">
+      <h2>本格イタリアンをカジュアルに<br>
+        幸せで楽しい時間を過ごすなら<br class="sp">「La Dolce Vita」</h2>
+        <p class="lead">南池袋に本格的なイタリア料理をカジュアルに楽しめるお店がオープンしました。<br>お店の料理は、新鮮な食材にこだわり、本場の味を再現しています。<br>また、お店の雰囲気は、明るく開放的で、ゆったりとくつろげる空間です。<br>デートや女子会、家族連れやグループでのご利用に最適です。ぜひご来店ください。</p>
+    </div>
+
+    <div class="gallery">
+        <p><img src="img/gallery-1.jpg" alt=""></p>
+        <p><img src="img/gallery-2.jpg" alt=""></p>
+    </div><!-- gallery -->
+    <main>
+        <section id="news">
+            <h3 data-en="NEWS">お知らせ</h3>
+            <dl id="news-list">
+
+           </dl><!-- news-list -->
+        </section><!-- news -->
+        
+        <div class="parallax-1"></div>
+
+        <section id="menu">
+            <h3 data-en="MENU">メニュー</h3>
+            <div class="menu-wrapper">
+                <div class="menu-img">
+                <a href="img/01.jpg"data-lightbox="menu"><img src="img/01.jpg" alt=""></a>
+                </div><!-- menu-img -->
+                <div class="menu-img">
+                <a href="img/02.jpg"data-lightbox="menu"><img src="img/02.jpg" alt=""></a>
+                </div><!-- menu-img -->
+                <div class="menu-img">
+                <a href="img/03.jpg"data-lightbox="menu"><img src="img/03.jpg" alt=""></a>
+                </div><!-- menu-img -->
+                <div class="menu-img">
+                <a href="img/04.jpg"data-lightbox="menu"><img src="img/04.jpg" alt=""></a>
+                </div><!-- menu-img -->
+                <div class="menu-img">
+                <a href="img/05.jpg"data-lightbox="menu"><img src="img/05.jpg" alt=""></a>
+                </div><!-- menu-img -->
+                <div class="menu-img">
+                <a href="img/06.jpg"data-lightbox="menu"><img src="img/06.jpg" alt=""></a>
+                </div><!-- menu-img -->
+            </div><!-- menu-wrapper -->
+        </section><!-- menu -->
+
+        <section id="movie">
+           <h3 data-en="MOVIE">動画</h3>
+           <div class="movie-wrapper">
+            <iframe class="youtube" src="https://www.youtube.com/embed/zlKKdMNrZnc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+           </div>
+        </section><!-- movie -->
+
+        <section id="shop">
+            <h3 data-en="SHOP">店舗情報</h3>
+            <div class="shop-wpapper">
+            <dl class="shop-list">
+            <dt>住所</dt>
+            <dd>東京都豊島区南池袋</dd>
+            <dt>電話番号</dt>
+            <dd><a class= "tel" href="tel:">0300001234</a></dd>
+            <dt>最寄り駅</dt>
+            <dd>JR池袋駅東口 徒歩5分</dd>
+            <dt>営業時間</dt>
+            <dd>11:00~21:00</dd>
+            <dt>定休日</dt>
+            <dd>水曜日</dd>
+            </dl><!-- shop-list -->
+            <div class="map-outer">
+                <iframe  class="g-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.9529467628854!2d139.71135999004503!3d35.72737571518186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d68974de2e9%3A0x4049becbb713f81d!2z5p2x5Lqs6YO96LGK5bO25Yy6!5e0!3m2!1sja!2sjp!4v1689301532466!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+            </div><!-- map-outer -->
+            </div><!-- shop-wpapper -->
+        </section><!-- shop -->
+
+        <div class="parallax-2"></div>
+        <section id="faq">
+            <h3 data-en="SHOP">よくある質問</h3>
+
+            <div class="faq-wrappoer">
+                <details>
+                    <summary>お店の予約は必要ですか？</summary>
+                    <p class="answer">ディナータイムは予約をおすすめします。</p>
+                </details>
+                <details>
+                    <summary>お店の支払い方法は？</summary>
+                    <p class="answer">現金、クレジットカード、電子マネー</p>
+                </details>
+                <details>
+                    <summary>お店のアレルギー対応はありますか？</summary>
+                    <p class="answer">
+                    はい、アレルギーをお持ちの方はご予約時にお申し付けください。
+                    </p>
+                </details>
+                <details>
+                    <summary>お店のデリバリーはありますか？</summary>
+                    <p class="answer">はい、デリバリーのご注文も承っています。</p>
+                </details>
+            </div><!-- faq-wrappoer -->
+        </section>
+    </main>
+
+        <div class="carousel">
+            <ul class="bxslider2">
+                <li><img src="img/01.jpg" alt=""></li>
+                <li><img src="img/02.jpg" alt=""></li>
+                <li><img src="img/03.jpg" alt=""></li>
+                <li><img src="img/04.jpg" alt=""></li>
+                <li><img src="img/05.jpg" alt=""></li>
+                <li><img src="img/06.jpg" alt=""></li>
+                <li><img src="img/gallery-1.jpg" alt=""></li>
+                <li><img src="img/gallery-2.jpg" alt=""></li>
+            </ul>
+        </div>
+
+    <footer>
+        <p><small>&copy; <span id="year"></span>La Dolce Vita
+        </small></p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script>
+        $(function(){/* メインビジュアル */
+            $('.bxslider').bxSlider({
+                mode: 'fade',
+                auto: true,
+                controls: false,
+                pager: false,
+                pause: 4000,
+                speed: 4000,
+            });
+
+        $('#news-list').load('news.txt');/* 外部ファイルを呼び出す */
+
+        /* 西暦を取得 */
+        let FullYear = new Date().getFullYear();
+        console.log(FullYear);
+        $('#year').text(FullYear);
+        /* 2024年以降は表記を変更 */
+        if(FullYear > 2023){
+            $('#year').text('2023 - '+FullYear);
+        }
+
+        /* カルーセル部分 */
+        $('.bxslider2').bxSlider({
+            ticker: true,/* ティッカー（ぐるぐる回る） */
+            speed: 40000,
+            minSlides: 3,/* スマホ表示 */
+            maxSlides: 5,
+            slideWidth: 300,/* 大きさ */
+        });
+
+        /* ハンバーガーメニュー */
+        $(function(){
+            $('#ham-btn').on('click',function(){
+                $(this).toggleClass('is-active');
+                  /* #g-navをfadeToogleさせる */
+                  $('#g-nav').fadeToggle(200);
+            });
+
+            /* 開いたナビゲーションを閉じる */
+            /* #g-nav aをon.clickしたら */
+            $('#g-nav').on('click',function(){
+                $('#g-nav').fadeOut(200);
+                    $('#ham-btn').removeClass('is-active');
+
+            });
+        });
+
+    
+        });
+
+    
+    </script>
+   
+</body>
+</html>
